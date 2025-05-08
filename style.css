@@ -3,104 +3,41 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
-/*Navbar*/
-nav
+#carouselExampleIndicators
 {
-  position: fixed;
-  display: flex;
-  background-color: antiquewhite;
+  border: solid #568203;
+  border-width: 5px 0px;
+}
+
+footer
+{
+  background-color: rgb(32, 32, 32 );
   width: 100%;
-  height: 5rem;
+  height: 500px;
+  padding: 20px 0px 20px 35px;
+  color: white;
 }
 
-/*Left-Side Navbar*/
-
-#navl
+.contacthead
 {
-  position: relative;
-  display: flex;
-  width: 25%;
-  height: 100%;
-}
-
-#slogo
-{
-  width: 5rem;
-}
-
-#bname
-{
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translateX(-50%) translateY(-50%);
-  font-weight: bold;
-  font-size: 2.3rem;
-}
-
-/*Right-Side Navbar*/
-#navr
-{
-  position: relative;
-  display: flex;
-  width: 75%;
-  height: 100%;
-}
-
-#links
-{
+  font-weight: 700;
+  border: solid #568203;
+  border-width: 0px 0px 3px;
+  padding-bottom: 3px;
+  font-size: 10px;
+  text-transform: uppercase;
   width: max-content;
-  position: absolute;
-  display: flex;
-  top: 50%;
-  left: 65%;
-  transform: translateX(-50%) translateY(-50%);
 }
 
-.li
+.conlogo
 {
-  position: relative;
-  margin: 0px 1.5rem;
+  width: 10px;
 }
 
-.icon
+.contactdet
 {
-  width: 2rem;
-}
-
-.link
-{
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: black;
-  transition: 0.2s ease-in-out;
-}
-
-.link:hover
-{
-  color: goldenrod;
-}
-
-/*Home*/
-#home
-{
-  width: 100%;
-  height: 55rem;
-}
-
-#banner
-{
-  position: relative;
-  width: 100%;
-}
-
-#blogo
-{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 15rem;
+  font-size: 10px;
 }
