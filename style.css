@@ -6,38 +6,83 @@
   font-family: Roboto, sans-serif;
 }
 
-#carouselExampleIndicators
+/*Banner*/
+#banner
 {
-  border: solid #568203;
-  border-width: 5px 0px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
+#ban
+{
+  width: 100%;
+}
+
+/*Article*/
+article
+{
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.art
+{
+  width: 100%;
+  box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.artimg
+{
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+
+.imgart
+{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.textart
+{
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+/*Footer*/
 footer
 {
-  background-color: rgb(32, 32, 32 );
+  background-color: rgb(32, 32, 32);
   width: 100%;
-  height: 500px;
-  padding: 20px 0px 20px 35px;
   color: white;
 }
 
-.contacthead
+#footer
 {
-  font-weight: 700;
-  border: solid #568203;
-  border-width: 0px 0px 3px;
-  padding-bottom: 3px;
-  font-size: 10px;
-  text-transform: uppercase;
-  width: max-content;
+  margin-top: 15px;
+  width: 100%;
 }
 
-.conlogo
+#rights
 {
-  width: 10px;
+  border: solid white;
+  border-width: 1px 0px 0px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
 }
 
-.contactdet
+#right
 {
+  margin-top: 10px;
   font-size: 10px;
 }
