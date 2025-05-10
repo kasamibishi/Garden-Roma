@@ -10,12 +10,17 @@
 #banner
 {
   width: 100%;
-  margin-bottom: 20px;
 }
 
 #ban
 {
   width: 100%;
+}
+
+/*Navbar*/
+nav
+{
+  margin-bottom: 20px;
 }
 
 /*Article*/
@@ -67,22 +72,16 @@ footer
 
 #footer
 {
-  margin-top: 15px;
-  width: 100%;
+  width:  100%;
 }
 
 #rights
 {
-  border: solid white;
-  border-width: 1px 0px 0px;
   text-align: center;
+  padding: 10px 0px;
+  border: solid rgb(171, 127, 18);
+  border-width: 1px 0px 0px;
+  margin: 0px 10%;
   width: 80%;
-  margin-left: 10%;
-  color: white;
-}
-
-#right
-{
-  margin-top: 10px;
-  font-size: 10px;
+  font-size: 60%;
 }
