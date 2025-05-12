@@ -16,8 +16,6 @@ nav
   height: 40px;
   z-index: 1;
   margin-bottom: 20px;
-  border: solid black;
-  border-width: 0px 0px 1px;
 }
 
 #links
@@ -41,8 +39,6 @@ nav
 /*Banner*/
 #banner
 {
-  border: solid black;
-  border-width: 0px 0px 1px;
   margin: 40px 0px 20px;
   width: 100%;
 }
