@@ -80,13 +80,38 @@ nav.expanded {
   width: 100%;
 }
 
+/*Article*/
+article
+{
+  position: relative;
+  width: 100%;
+  padding: 20px 5%;
+}
+
+.artimg
+{
+  padding: 5px 0px;
+  width: 100%;
+}
+
 /*Footer*/
 footer
 {
+  position: relative;
   padding-top: 15px;
-  background-color: rgb(32, 32, 32);
   width: 100%;
   color: white;
+}
+
+#footerbg
+{
+  position: absolute;
+  width: 100%;
+}
+
+#footdet
+{
+  position: absolute;
 }
 
 #footer
