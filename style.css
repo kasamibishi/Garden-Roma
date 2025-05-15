@@ -14,15 +14,15 @@ nav
   position: fixed;
   background-color: rgb(32, 32, 32);
   width: 100%;
-  height: 40px;
-  border: solid rgba(60,194,132,255);
+  height: 60px;
+  border: solid orange;
   border-width: 0px 0px 4px;
   overflow: hidden;
   transition: height 0.3s ease;
 }
 
 nav.expanded {
-  height: 135px;
+  height: 150px;
 }
 
 #menu
@@ -31,7 +31,7 @@ nav.expanded {
   margin-top: 5px;
   left: 50%;
   transform: translateX(-50%);
-  width: 25px;
+  width: 45px;
   opacity: 100;
   cursor: pointer;
 }
@@ -40,7 +40,7 @@ nav.expanded {
 {
   display: block;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .link
@@ -48,9 +48,8 @@ nav.expanded {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  color: rgba(60,194,132,255);
+  color: white;
   transition: 0.4s ease-in-out;
-  spac
 }
 
 .link:hover
@@ -73,7 +72,14 @@ nav.expanded {
 
 #ban
 {
+  display: block;
   width: 100%;
+}
+
+#banlaptop
+{
+  width: 100%;
+  display: none;
 }
 
 #services
@@ -181,4 +187,100 @@ footer
   margin: 0px 10%;
   width: 80%;
   font-size: 60%;
+}
+
+/*For Phone Display*/
+@media screen and (max-width: 767px) {
+  
+}
+
+/*For Tablet Display*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*Nav*/
+  nav
+  {
+    height: 100px;
+  }
+
+  nav.expanded
+  {
+    height: 300px;
+  }
+
+  #menu
+  {
+    width: 85px;
+  }
+
+  #links
+  {
+    padding-top: 90px;
+  }
+
+  .link
+  {
+    font-size: 45px;
+  }
+
+  /*Banner*/
+  #services
+  {
+    height: 350px;
+  }
+  
+  /*Article*/
+  .art
+  {
+    margin-bottom: 80px;
+  }
+
+  .artdes
+  {
+    font-size: 35px;
+  }
+
+  /*Footer*/
+  #socials
+  {
+    padding: 0px 0px 50px;
+  }
+
+  .touch
+  {
+    height: 120px;
+    width: 120px;
+
+  }
+
+  .social
+  {
+    width: 80px;
+  }
+
+  #rights
+  {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+
+/*Laptop Display*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  /*Banner*/
+  #ban
+  {
+    display: none;
+    width: 100%;
+  }
+
+  #banlaptop
+  {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*Desktop Displau*/
+@media screen and (min-width: 1440px) {
+  
 }
