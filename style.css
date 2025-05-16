@@ -45,7 +45,7 @@ nav.expanded {
 
 .link
 {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
   text-decoration: none;
   color: white;
@@ -108,9 +108,7 @@ article
 
 .art
 {
-  padding: 0px;
   width: 100%;
-  margin-bottom: 30px;
 }
 
 .artimg
@@ -120,7 +118,7 @@ article
 
 .artdes
 {
-  font-size: 20px;
+  font-size: 1rem;
   padding: 0px 10px;
   width: 100%;
 }
@@ -199,88 +197,247 @@ footer
   /*Nav*/
   nav
   {
-    height: 100px;
+    height: 80px;
   }
 
-  nav.expanded
-  {
-    height: 300px;
+  nav.expanded {
+    height: 220px;
   }
 
   #menu
   {
-    width: 85px;
+    width: 65px;
   }
 
   #links
   {
-    padding-top: 90px;
+    padding-top: 70px;
   }
 
   .link
   {
-    font-size: 45px;
+    font-size: 2rem;
   }
 
   /*Banner*/
   #services
   {
-    height: 350px;
-  }
-  
-  /*Article*/
-  .art
-  {
-    margin-bottom: 80px;
+    height: 300px;
   }
 
+  #slogo
+  {
+    width: 70%;
+  }
+
+  /*Article*/
   .artdes
   {
-    font-size: 35px;
+    font-size: 2rem;
+    padding: 0px 10px;
+    width: 100%;
   }
 
   /*Footer*/
-  #socials
-  {
-    padding: 0px 0px 50px;
-  }
-
   .touch
   {
-    height: 120px;
-    width: 120px;
-
+    width: 100px;
+    height: 100px;
   }
 
   .social
   {
-    width: 80px;
+    width: 70px;
   }
 
   #rights
   {
-    width: 80%;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 }
 
 /*Laptop Display*/
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
+  /*Nav*/
+  nav
+  {
+    height: 80px;
+  }
+
+  nav.expanded {
+    height: 220px;
+  }
+
+  #menu
+  {
+    display: none;
+  }
+
+  #links
+  {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10px;
+  }
+
+  .link
+  {
+    font-size: 2.5rem;
+  }
+
   /*Banner*/
   #ban
   {
     display: none;
-    width: 100%;
   }
 
   #banlaptop
   {
-    width: 100%;
     display: block;
+  }
+
+  #services
+  {
+    height: 400px;
+  }
+
+  #slogo
+  {
+    width: 60%;
+  }
+
+  /*Article*/
+  article
+  {
+    padding: 50px;
+  }
+
+  .art
+  {
+    margin-bottom: 40px;
+  }
+
+  .artdes
+  {
+    font-size: 2em;
+    padding: 0px 10px;
+    width: 100%;
+  }
+
+  /*Footer*/
+
+  #footer
+  {
+    width: 80%;
+  }
+
+  .touch
+  {
+    width: 130px;
+    height: 130px;
+  }
+
+  .social
+  {
+    width: 100px;
+  }
+
+  #rights
+  {
+    font-size: 2rem;
   }
 }
 
 /*Desktop Displau*/
 @media screen and (min-width: 1440px) {
-  
+  /*Nav*/
+  nav
+  {
+    height: 80px;
+  }
+
+  nav.expanded {
+    height: 220px;
+  }
+
+  #menu
+  {
+    display: none;
+  }
+
+  #links
+  {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10px;
+  }
+
+  .link
+  {
+    font-size: 2.5rem;
+  }
+
+  /*Banner*/
+  #ban
+  {
+    display: none;
+  }
+
+  #banlaptop
+  {
+    display: block;
+  }
+
+  #services
+  {
+    height: 400px;
+  }
+
+  #slogo
+  {
+    width: 50%;
+  }
+
+  /*Article*/
+  article
+  {
+    padding: 0px 200px 0px;
+  }
+
+  .art
+  {
+    margin-bottom: 70px;
+  }
+
+  .artdes
+  {
+    font-size: 2em;
+    padding: 0px 10px;
+    width: 100%;
+  }
+
+  /*Footer*/
+
+  #footer
+  {
+    width: 80%;
+  }
+
+  .touch
+  {
+    width: 130px;
+    height: 130px;
+  }
+
+  .social
+  {
+    width: 100px;
+  }
+
+  #rights
+  {
+    font-size: 2rem;
+  }
 }
