@@ -82,6 +82,12 @@ nav.expanded {
   display: none;
 }
 
+#bandesktop
+{
+  width: 100%;
+  display: none;
+}
+
 #services
 {
   position: relative;
@@ -144,9 +150,19 @@ footer
   position: absolute;
 }
 
+#footlogo
+{
+  width: 0%;
+}
+
 #footer
 {
   width: 100%;
+}
+
+#footerdesktop
+{
+  width: 0px;
 }
 
 #socials
@@ -294,27 +310,34 @@ footer
 
   #banlaptop
   {
-    display: block;
+    display: none;
+  }
+
+  #bandesktop
+  {
+    display: block
   }
 
   #services
   {
-    height: 400px;
+    height: 300px;
   }
 
   #slogo
   {
-    width: 60%;
+    width: 40%;
   }
 
   /*Article*/
   article
   {
-    padding: 50px;
+    padding: 0px 50px 50px;
   }
 
   .art
   {
+    margin-left: 10%;
+    width: 80%;
     margin-bottom: 40px;
   }
 
@@ -326,10 +349,20 @@ footer
   }
 
   /*Footer*/
+  #logofoot
+  {
+    display: flex;
+    width: 100%;
+  }
 
   #footer
   {
-    width: 80%;
+    display: none;
+  }
+
+  #footerdesktop
+  {
+    width: 100%;
   }
 
   .touch
@@ -390,6 +423,11 @@ footer
     display: block;
   }
 
+  #bandesktop
+  {
+    display: none;
+  }
+
   #services
   {
     height: 400px;
@@ -397,10 +435,11 @@ footer
 
   #slogo
   {
-    width: 50%;
+    width: 40%;
   }
 
   /*Article*/
+
   article
   {
     padding: 0px 200px 0px;
@@ -408,6 +447,8 @@ footer
 
   .art
   {
+    margin-left: 20%;
+    width: 60%;
     margin-bottom: 70px;
   }
 
@@ -419,10 +460,25 @@ footer
   }
 
   /*Footer*/
+  #logofoot
+  {
+    display: flex;
+    width: 100%;
+  }
 
   #footer
   {
-    width: 80%;
+    display: none;
+  }
+
+  #footerdesktop
+  {
+    width: 100%;
+  }
+
+  #footlogo
+  {
+    width: 25%;
   }
 
   .touch
